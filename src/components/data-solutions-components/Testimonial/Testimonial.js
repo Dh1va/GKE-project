@@ -64,7 +64,7 @@ const Testimonial = () => {
                                                 <h2 className="xb-item--title">VIDA RESIDENCE</h2>
 
                                                 <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped align-middle ">
+                                                    <table class="table table-bordered table-striped align-middle custom-table ">
                                                     <tbody>
                                                         <tr>
                                                         <th scope="row" class="text-uppercase">Client</th>
@@ -110,7 +110,7 @@ const Testimonial = () => {
                                                 <h2 className="xb-item--title">NOVA Tower</h2>
                                                
                                                 <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped align-middle ">
+                                                    <table class="table table-bordered table-striped align-middle custom-table">
                                                     <tbody>
                                                         <tr>
                                                         <th scope="row" class="text-uppercase">Client</th>
@@ -156,7 +156,7 @@ const Testimonial = () => {
                                                 <h2 className="xb-item--title">HELIX Tower</h2>
                                                
                                                 <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped align-middle ">
+                                                    <table class="table table-bordered table-striped align-middle custom-table">
                                                     <tbody>
                                                         <tr>
                                                         <th scope="row" class="text-uppercase">Client</th>
@@ -204,7 +204,7 @@ const Testimonial = () => {
                                                 <h2 className="xb-item--title">Dubai Harbour Car Park</h2>
                                                
                                                 <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped align-middle ">
+                                                    <table class="table table-bordered table-striped align-middle custom-table">
                                                     <tbody>
                                                         <tr>
                                                         <th scope="row" class="text-uppercase">Client</th>
@@ -250,7 +250,7 @@ const Testimonial = () => {
                                                 <h2 className="xb-item--title">Al Wasl Island</h2>
                                                
                                                 <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped align-middle ">
+                                                    <table class="table table-bordered table-striped align-middle custom-table">
                                                     <tbody>
                                                         <tr>
                                                         <th scope="row" class="text-uppercase">Client</th>

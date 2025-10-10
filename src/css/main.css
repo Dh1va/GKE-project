@@ -11287,7 +11287,7 @@ body[data-aos-easing=ease] [data-aos] {
   .da-cta {
     width: 100%;
     min-height: 0;
-    padding: 50px 20px;
+    padding: 50px 10px;
   }
 }
 
@@ -21969,3 +21969,23 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
       margin-right: 0 !important;
     }
   }
+  @media (max-width: 767px) {
+  .custom-table {
+    font-size: 12px;             /* smaller text */
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 4px 6px;            /* tighter spacing */
+    white-space: normal;         /* allow text to wrap */
+    word-break: break-word;      /* break long words */
+  }
+
+  .custom-table th {
+    width: 40%;                  /* make first column smaller */
+  }
+
+  .custom-table td {
+    width: 60%;
+  }
+}

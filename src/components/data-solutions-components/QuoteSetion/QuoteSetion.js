@@ -37,7 +37,7 @@ const QuoteSetion = (props) => {
                                     <div className="xb-item--hidden"><span className="xb-item--hidden-text">Start Your Project Discussion</span></div>
                                     <div className="xb-item--holder">
                                         <span className="xb-item--text xb-item--text1">Start Your Project Discussion</span>
-                                        <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
+                                        <div className="xb-item--icon "><i className="fal fa-plus"></i></div>
                                         <span className="xb-item--text xb-item--text2">Start Your Project Discussion</span>
                                     </div>
                                 </Link>
