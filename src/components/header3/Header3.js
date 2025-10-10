@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 // import icon11 from '../../images/icon/m_10.svg'
 // import icon12 from '../../images/icon/m_11.svg'
 import logo from '../../images/logo/GKE logo v2.png'
+import logo2 from '../../images/logo/Gke logo mobile-01.png'
 // import logo2 from '../../images/logo/logo06_dark.svg'
 // import clogo1 from '../../images/logo/client-logo.svg'
 // import clogo2 from '../../images/logo/client-logo2.svg'
@@ -61,7 +62,7 @@ const Header3 = (props) => {
                         <div className="header-logo">
                             <Link onClick={ClickHandler} to="/">
                                 <img src={logo} alt="" />
-                                <img src={logo} alt="" />
+                                <img src={logo2} alt="" />
                             </Link>
                         </div>
                         <div className="header-right ul_li">
@@ -546,7 +547,7 @@ const Header3 = (props) => {
                                         <div className="xb-header-menu-scroll lenis lenis-smooth">
                                             <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                                             <div className="xb-logo-mobile xb-hide-xl">
-                                                <Link onClick={ClickHandler} to="/" rel="home"><img src={logo}
+                                                <Link onClick={ClickHandler} to="/" rel="home"><img src={logo2}
                                                     alt="" /></Link>
                                             </div>
                                             {/* <div className="xb-header-mobile-search xb-hide-xl">
@@ -571,7 +572,7 @@ const Header3 = (props) => {
                                 </button>
                             </div>
                             <div className="header-contact d-none d-md-block">
-                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Stated
+                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Started
                                     <span><i className="fal fa-plus"></i></span>
                                 </Link>
                             </div>

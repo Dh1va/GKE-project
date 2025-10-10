@@ -39,12 +39,12 @@ const DataSolutioBlogSection = (props) => {
                         ))}
                     </div>
                     <div className="xb-btn text-center mt-70">
-                        <Link onClick={ClickHandler} to="/blog" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data-strock_white">
-                            <div className="xb-item--hidden"><span className="xb-item--hidden-text">View More Insights</span></div>
+                        <Link onClick={ClickHandler} to="/blog-single/Why-Third-Party-MEP-Design-Review-Saves-Time-and-Cost" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data-strock_white">
+                            <div className="xb-item--hidden"><span className="xb-item--hidden-text">View More Blogs & Insights</span></div>
                             <div className="xb-item--holder">
-                                <span className="xb-item--text xb-item--text1">View More Insights</span>
+                                <span className="xb-item--text xb-item--text1">View More Blogs & Insights</span>
                                 <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                                <span className="xb-item--text xb-item--text2">View More Insights</span>
+                                <span className="xb-item--text xb-item--text2">View More Blogs & Insights</span>
                             </div>
                         </Link>
                     </div>

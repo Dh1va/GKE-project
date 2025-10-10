@@ -24,15 +24,15 @@ const TeamPage = (props) => {
                         <div className="page-title-wrap">
                             <div className="row mt-none-30 align-items-end">
                                 <div className="col-lg-7 mt-30">
-                                    <div className="page-title-box">
+                                    <div className="page-title-box ">
                                         <span className="sub-title"><img src={icon} alt="" />Our team</span>
-                                        <h2 className="title">Precision Engineering for Smarter Building Outcomes</h2>
+                                        <h2 className="title mx-auto-sm">Precision Engineering for Smarter Building Outcomes</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 mt-30">
                                     <div className="count-box">
-                                        <h2 className="number">10 <span className="suffix">+</span></h2>
-                                        <span className="text">Professional Team <br /> Members</span>
+                                        <h2 className="number mx-auto-sm">10 <span className="suffix">+</span></h2>
+                                        <span className="text mx-auto-sm">Professional Team <br /> Members</span>
                                     </div>
                                 </div>
                             </div>

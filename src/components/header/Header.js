@@ -595,7 +595,7 @@ import { Link } from 'react-router-dom'
 // import icon11 from '../../images/icon/m_10.svg'
 // import icon12 from '../../images/icon/m_11.svg'
 import logo from '../../images/logo/GKE logo v2.png'
-import logo2 from '../../images/logo/GKE logo v2.png'
+import logo2 from '../../images/logo/Gke logo mobile-01.png'
 // import clogo1 from '../../images/logo/client-logo.svg'
 // import clogo2 from '../../images/logo/client-logo2.svg'
 // import avatar from '../../images/bg/avatar.png'
@@ -1154,7 +1154,7 @@ const Header3 = (props) => {
                                 </button>
                             </div>
                             <div className="header-contact d-none d-md-block">
-                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Stated
+                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Started
                                     <span><i className="fal fa-plus"></i></span>
                                 </Link>
                             </div>

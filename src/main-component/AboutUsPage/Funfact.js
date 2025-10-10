@@ -10,20 +10,20 @@ const FunfactSection = (props) => {
                 <div className="row mt-none-30">
                     <div className="col-lg-4 col-md-4 mt-30">
                         <div className="ap-fanfact-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
-                            <h2 className="xb-item--number"><CountUp end={120} enableScrollSpy />+</h2>
-                            <span className="xb-item--text">success stories</span>
+                            <h2 className="xb-item--number mx-auto-sm"><CountUp end={120} enableScrollSpy />+</h2>
+                            <span className="xb-item--text mx-auto-sm">success stories</span>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 mt-30">
-                        <div className="ap-fanfact-item ap-fanfact-item--middle wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">
-                            <h2 className="xb-item--number"><CountUp end={1.2} enableScrollSpy />k</h2>
-                            <span className="xb-item--text">companies trust us</span>
+                        <div className="ap-fanfact-item ap-fanfact-item--middle wow fadeInUp " data-wow-delay="200ms" data-wow-duration="600ms">
+                            <h2 className="xb-item--number mx-auto-sm"><CountUp end={1.2} enableScrollSpy />k</h2>
+                            <span className="xb-item--text mx-auto-sm">companies trust us</span>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 mt-30">
                         <div className="ap-fanfact-item ap-fanfact-item--last wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                            <h2 className="xb-item--number"><CountUp end={100} enableScrollSpy />%</h2>
-                            <span className="xb-item--text">results guaranteed</span>
+                            <h2 className="xb-item--number  mx-auto-sm"><CountUp end={100} enableScrollSpy />%</h2>
+                            <span className="xb-item--text  mx-auto-sm">results guaranteed</span>
                         </div>
                     </div>
                 </div>

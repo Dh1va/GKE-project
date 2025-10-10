@@ -78,6 +78,7 @@ const FeatureSection = (props) => {
                         </div>
                     </Link>
                 </div>
+                
             </div>
         </section>
     );

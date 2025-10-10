@@ -109,30 +109,30 @@ const menus = [
         title: 'Services',
         link: '/service',
         submenu: [
-            {
-                id: 51,
-                title: 'Services',
-                link: '/service'
-            },
+            // {
+            //     id: 51,
+            //     title: 'Services',
+            //     link: '/service'
+            // },
             {
                 id: 52,
                 title: 'MEP Design Engineering',
-                link: '/service-single/Niche-research'
+                link: '/service/MEP-design-engineering'
             },
             {
                 id: 53,
                 title: 'Value Engineering Solutions',
-                link: '/service-single/Niche-research'
+                link: '/service/Value-engineering-solutions'
             },
             {
                 id: 54,
                 title: 'Third-Party Reviews',
-                link: '/service-single/Niche-research'
+                link: '/service/Third-party-reviews'
             },
             {
                 id: 55,
                 title: 'BIM Solutions (LOD 100–500)',
-                link: '/service-single/Niche-research'
+                link: '/service/BIM-solutions'
             },
 
 

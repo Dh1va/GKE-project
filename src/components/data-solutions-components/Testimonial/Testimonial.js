@@ -90,7 +90,7 @@ const Testimonial = () => {
                                                     </table>
                                                 </div>
                                                 
-                                                <p className="xb-item--content content--two">We are developing the MEP BIM shop drawing model from LOD 300 through LOD 500, aligned with the RIBA Plan of Work Stages 3–6 and ISO 19650 standards. The model is progressing from spatial coordination to detailed fabrication and as-built accuracy, incorporating manufacturer-specific components and on-site updates. All project data is managed within a structured Common Data Environment (CDE) to ensure seamless collaboration and traceability. On completion, the final LOD 500 model will deliver accurate asset information, COBie outputs, and full digital handover for efficient facilities management.</p>
+                                                <p className="xb-item--content content--two d-none d-md-block">We are developing the MEP BIM shop drawing model from LOD 300 through LOD 500, aligned with the RIBA Plan of Work Stages 3–6 and ISO 19650 standards. The model is progressing from spatial coordination to detailed fabrication and as-built accuracy, incorporating manufacturer-specific components and on-site updates. All project data is managed within a structured Common Data Environment (CDE) to ensure seamless collaboration and traceability. On completion, the final LOD 500 model will deliver accurate asset information, COBie outputs, and full digital handover for efficient facilities management.</p>
                                                 {/* <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p> */}
                                             </div>
                                         </div>
@@ -135,7 +135,7 @@ const Testimonial = () => {
                                                     </tbody>
                                                     </table>
                                                 </div>
-                                                 <p className="xb-item--content content--two">We developed the LOD 300 MEP design intent BIM model by converting detailed AutoCAD drawings into a coordinated 3D model, aligned with RIBA Stage 3 and ISO 19650 standards. This ensured accurate system sizing, routing, and spatial coordination across architectural and structural elements, managed within a Common Data Environment (CDE) for collaboration and data reliability. The model is now being upgraded from LOD 300 to LOD 500 to generate MEP shop drawings, covering RIBA Stages 3–6. At this stage, the model incorporates manufacturer-specific components, fabrication details, and site-verified updates. Once completed, the LOD 500 model will deliver COBie-compliant data to support digital handover and long-term facilities management.</p>
+                                                 <p className="xb-item--content content--two d-none d-md-block">We developed the LOD 300 MEP design intent BIM model by converting detailed AutoCAD drawings into a coordinated 3D model, aligned with RIBA Stage 3 and ISO 19650 standards. This ensured accurate system sizing, routing, and spatial coordination across architectural and structural elements, managed within a Common Data Environment (CDE) for collaboration and data reliability. The model is now being upgraded from LOD 300 to LOD 500 to generate MEP shop drawings, covering RIBA Stages 3–6. At this stage, the model incorporates manufacturer-specific components, fabrication details, and site-verified updates. Once completed, the LOD 500 model will deliver COBie-compliant data to support digital handover and long-term facilities management.</p>
                                                 {/* <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p> */}
                                                 
                                             </div>
@@ -181,7 +181,7 @@ const Testimonial = () => {
                                                     </tbody>
                                                     </table>
                                                 </div>
-                                                 <p className="xb-item--content content--two">
+                                                 <p className="xb-item--content content--two d-none d-md-block">
                                                     We developed the LOD 300 MEP design intent BIM model by converting detailed AutoCAD drawings from the design consultant into a coordinated 3D model, aligned with RIBA Stage 3 and ISO 19650 standards. This process ensured accurate system sizing, routing, and spatial coordination with architectural and structural elements, managed through a Common Data Environment (CDE) for reliability and collaboration. The model is now being upgraded from LOD 300 to LOD 500 to produce shop drawings and achieve fabrication-level accuracy. This includes manufacturer-specific components, coordinated layouts, and site-verified updates. Once complete, the LOD 500 model will deliver COBie-compliant data to support digital handover and long-term facilities management.
                                                  </p>
                                                 {/* <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p> */}
@@ -229,7 +229,7 @@ const Testimonial = () => {
                                                     </tbody>
                                                     </table>
                                                 </div>
-                                                 <p className="xb-item--content content--two">We are developing the MEP BIM shop drawing model from LOD 300 through LOD 500, following RIBA Stages 3–6 and ISO 19650 standards. The model progresses from spatial coordination to detailed fabrication and as-built representation, incorporating manufacturer-specific components, coordinated shop drawings, and verified on-site updates. All data is managed within a structured Common Data Environment (CDE) to ensure collaboration, traceability, and alignment with project requirements. Upon completion, the LOD 500 model will provide accurate asset data, COBie-compliant outputs, and seamless digital handover to support efficient facilities management.</p>
+                                                 <p className="xb-item--content content--two d-none d-md-block">We are developing the MEP BIM shop drawing model from LOD 300 through LOD 500, following RIBA Stages 3–6 and ISO 19650 standards. The model progresses from spatial coordination to detailed fabrication and as-built representation, incorporating manufacturer-specific components, coordinated shop drawings, and verified on-site updates. All data is managed within a structured Common Data Environment (CDE) to ensure collaboration, traceability, and alignment with project requirements. Upon completion, the LOD 500 model will provide accurate asset data, COBie-compliant outputs, and seamless digital handover to support efficient facilities management.</p>
                                                 {/* <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p> */}
                                                 
                                             </div>
@@ -275,7 +275,7 @@ const Testimonial = () => {
                                                     </tbody>
                                                     </table>
                                                 </div>
-                                                 <p className="xb-item--content content--two">We are developing the MEP BIM shop drawing model from LOD 300 to LOD 500, following RIBA Stages 3–6 and ISO 19650 standards. The model evolves from spatial coordination to detailed fabrication and as-built representation, including manufacturer-specific components, coordinated shop drawings, and site-verified updates. All data is managed within a structured Common Data Environment (CDE) to ensure collaboration, traceability, and compliance with project requirements. Upon completion, the LOD 500 model will deliver accurate asset data, COBie-compliant outputs, and seamless digital handover for efficient facilities management.</p>
+                                                 <p className="xb-item--content content--two d-none d-md-block">We are developing the MEP BIM shop drawing model from LOD 300 to LOD 500, following RIBA Stages 3–6 and ISO 19650 standards. The model evolves from spatial coordination to detailed fabrication and as-built representation, including manufacturer-specific components, coordinated shop drawings, and site-verified updates. All data is managed within a structured Common Data Environment (CDE) to ensure collaboration, traceability, and compliance with project requirements. Upon completion, the LOD 500 model will deliver accurate asset data, COBie-compliant outputs, and seamless digital handover for efficient facilities management.</p>
                                                 {/* <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p> */}
                                                 
                                             </div>
@@ -298,11 +298,11 @@ const Testimonial = () => {
                 </div>
                 <div className="xb-btn text-center mt-55">
                     <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data-strock">
-                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">View More Projects</span></div>
+                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">Start Your Project Discussion</span></div>
                         <div className="xb-item--holder">
-                            <span className="xb-item--text xb-item--text1">View More Projects</span>
+                            <span className="xb-item--text xb-item--text1">Start Your Project Discussion</span>
                             <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                            <span className="xb-item--text xb-item--text2">View More Projects</span>
+                            <span className="xb-item--text xb-item--text2">Start Your Project Discussion</span>
                         </div>
                     </Link>
                 </div>
