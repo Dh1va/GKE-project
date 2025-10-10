@@ -34,11 +34,11 @@ const QuoteSetion = (props) => {
                             <h2 className="xb-item--title">Partnering  for  Project  Success</h2>
                             <div className="xb-btn mt-50">
                                 <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data">
-                                    <div className="xb-item--hidden"><span className="xb-item--hidden-text">Start Your Project Discussion</span></div>
+                                    <div className="xb-item--hidden"><span className="xb-item--hidden-text">Discover More</span></div>
                                     <div className="xb-item--holder">
-                                        <span className="xb-item--text xb-item--text1">Start Your Project Discussion</span>
+                                        <span className="xb-item--text xb-item--text1">Discover More</span>
                                         <div className="xb-item--icon "><i className="fal fa-plus"></i></div>
-                                        <span className="xb-item--text xb-item--text2">Start Your Project Discussion</span>
+                                        <span className="xb-item--text xb-item--text2">Discover More</span>
                                     </div>
                                 </Link>
                             </div>
