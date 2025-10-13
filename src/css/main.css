@@ -18499,23 +18499,23 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   right: 12%;
 }
 
-.hero-style-six {
+/* .hero-style-six {
   height: 100%;
-  /* background: linear-gradient(360deg, rgba(19, 55, 187, 0) 0%, #1337bb 65%); */
-  background: url(../images/bg/gke hero banner-46.png);
-  background-size: cover;
+  
+  background: url(../images/bg/gke home banner new-46.jpg);
+  background-size: contain;
   z-index: 1;
 }
 
 @media (max-width: 1199px) {
   .hero-style-six {
-    min-height: 800px;
+    min-height: 100%;
   }
 }
 
 @media (max-width: 991px) {
   .hero-style-six {
-    min-height: 680px;
+    min-height: 100%;
     padding-top: 60px;
   }
 }
@@ -18559,7 +18559,122 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   top: 0;
   right: 219px;
   z-index: -1;
+} */
+
+.hero-style-six {
+  position: relative;
+  width: 100%;
+  height: 110vh; /* full viewport height */
+  background: url('../images/bg/gke home banner new-46.jpg') center center / cover no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.hero-style-six .hero-overlay {
+  position: absolute;
+  inset: 0;
+ 
+  z-index: 0;
+}
+
+.hero-style-six .container {
+  position: relative;
+  z-index: 1;
+}
+
+.xb-item--title {
+  font-size: 72px;
+  line-height: 90px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.xb-item--content {
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  .xb-item--title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .xb-item--content {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .hero-style-six {
+    padding-top: 100px; /* increase space below navbar */
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-style-six {
+    height: 100vh;
+    padding-top: 120px; /* more spacing for mobile */
+    padding-left: 15px; /* keep content from touching edges */
+    padding-right: 15px
+  }
+
+  .xb-hero {
+    text-align: left;      /* align text to left */
+    padding-right: 25px;
+    width: 80%;
+  }
+
+  .xb-item--title,
+  .xb-item--content {
+    max-width: 90%;        /* restrict width */
+    margin-left: 0;        /* no auto centering */
+  }
+
+  .xb-item--title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .xb-item--content {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .xb-btn .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-style-six {
+    height: 100vh;
+    padding-top: 105px; /* more spacing for fixed navbar */
+  }
+  .xb-hero {
+    width: 90%;          /* restrict width for better visibility */
+  }
+  .xb-item--title {
+    font-size: 28px;
+    line-height: 36px;
+    width:60%;
+  }
+  .xb-item--content {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .xb-btn .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .hero-style-six .xb-shape {

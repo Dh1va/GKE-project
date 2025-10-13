@@ -10,8 +10,9 @@ const Hero3 = (props) => {
     }
 
     return (
-        <section className="hero hero-style-six pos-rel pt-110 pb-50">
-            <div className="container">
+        <section className="hero hero-style-six pos-rel pt-170 pb-50">
+            <div className="hero-overlay"></div>
+            <div className="container position-relative">
                 <div className="hero_wrap">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
@@ -22,12 +23,12 @@ const Hero3 = (props) => {
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1500} delay={9}>
-                                    <div>
+                                    <div className="d-none d-md-block">
                                         <p className="xb-item--content wow fadeInUp" style={{color:"#000"}} data-wow-delay="150ms" data-wow-duration="600ms">We deliver efficient, safe, and sustainable MEP solutions covering HVAC, electrical, plumbing, and more to optimize building performance at every stage.</p>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
-                                    <div>
+                                    <div className="d-none d-md-block">
                                         <div className="xb-btn mt-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
                                             <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Talk To Experts</span></div>

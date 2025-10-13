@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import qImg1 from '../../../images/icon/quote02.png'
-import qImg2 from '../../../images/testimonial/da-img.png'
-import qImg3 from '../../../images/brand/da-img.png'
+// import qImg2 from '../../../images/testimonial/da-img.png'
+// import qImg3 from '../../../images/brand/da-img.png'
 
 const QuoteSetion = (props) => {
 
@@ -17,7 +17,7 @@ const QuoteSetion = (props) => {
                         <div className="xb-item--inner">
                             <span className="xb-item--quote"><img src={qImg1} alt=""/></span>
                             <p className="xb-item--content">“GK Engineering delivered smart, efficient MEP and BIM solutions, saving costs and ensuring seamless project execution with outstanding professionalism.”</p>
-                            <div className="xb-item--holder ul_li">
+                            {/* <div className="xb-item--holder ul_li">
                                 
                                 <div className="xb-item--author">
                                     <img src={qImg2} alt=""/>
@@ -26,7 +26,7 @@ const QuoteSetion = (props) => {
                                     <h3 className="xb-item--name">Robert Miller <span className="xb-item--desig">Founder & CEO. at BUSD</span></h3>
                                     <div className="xb-item--brand"><img src={qImg3} alt=""/></div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="da-cta">
