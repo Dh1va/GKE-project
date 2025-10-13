@@ -18654,7 +18654,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 480px) {
   .hero-style-six {
     height: 100vh;
-    padding-top: 105px; /* more spacing for fixed navbar */
+    padding-top: 115px; /* more spacing for fixed navbar */
   }
   .xb-hero {
     width: 90%;          /* restrict width for better visibility */
@@ -18662,7 +18662,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-item--title {
     font-size: 28px;
     line-height: 36px;
-    width:60%;
+    
   }
   .xb-item--content {
     font-size: 14px;
