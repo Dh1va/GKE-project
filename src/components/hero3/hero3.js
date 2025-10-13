@@ -10,7 +10,7 @@ const Hero3 = (props) => {
     }
 
     return (
-        <section className="hero hero-style-six pos-rel pt-110">
+        <section className="hero hero-style-six pos-rel pt-110 pb-50">
             <div className="container">
                 <div className="hero_wrap">
                     <div className="row align-items-center">

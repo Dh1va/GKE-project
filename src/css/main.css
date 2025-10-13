@@ -18500,7 +18500,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .hero-style-six {
-  min-height: 1081px;
+  height: 100%;
   /* background: linear-gradient(360deg, rgba(19, 55, 187, 0) 0%, #1337bb 65%); */
   background: url(../images/bg/gke hero banner-46.png);
   background-size: cover;
@@ -18509,7 +18509,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 @media (max-width: 1199px) {
   .hero-style-six {
-    min-height: 1081px;
+    min-height: 800px;
   }
 }
 
