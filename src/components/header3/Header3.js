@@ -59,20 +59,20 @@ const Header3 = (props) => {
             <div className={`xb-header stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
                 <div className="container">
                     <div className="header__wrap ul_li_between">
-                        <div className="header-logo ">
+                        <div className="header-logo d-none d-md-block">
                                                     <Link onClick={ClickHandler} to="/">
                                                         <img className='' src={logo} alt="" />
                                                                                         
                                                         <img className='' src={logo} alt="" />
                                                     </Link>
                                                 </div>
-                                                {/* <div className="header-logo d-block d-md-none">
+                                                <div className="header-logo d-block d-md-none">
                                                     <Link onClick={ClickHandler} to="/">
                                                         <img className='' src={logo2} alt="" />
                                                                                         
                                                         <img className='' src={logo2} alt="" />
                                                     </Link>
-                                                </div> */}
+                                                </div>
                         <div className="header-right ul_li">
                             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
                                 <nav className="main-menu collapse navbar-collapse">
