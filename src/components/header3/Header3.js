@@ -66,7 +66,7 @@ const Header3 = (props) => {
                                                         <img className='' src={logo} alt="" />
                                                     </Link>
                                                 </div>
-                                                <div className="header-logo d-block d-md-none">
+                                                <div className="header-logo d-block d-md-none w-75">
                                                     <Link onClick={ClickHandler} to="/">
                                                         <img className='' src={logo2} alt="" />
                                                                                         
