@@ -61,9 +61,9 @@ const Header3 = (props) => {
                     <div className="header__wrap ul_li_between">
                         <div className="header-logo ">
                                                     <Link onClick={ClickHandler} to="/">
-                                                        <img className='' src={logo2} alt="" />
+                                                        <img className='' src={logo} alt="" />
                                                                                         
-                                                        <img className='' src={logo2} alt="" />
+                                                        <img className='' src={logo} alt="" />
                                                     </Link>
                                                 </div>
                                                 {/* <div className="header-logo d-block d-md-none">
