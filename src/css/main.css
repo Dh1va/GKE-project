@@ -18632,7 +18632,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-item--title,
   .xb-item--content {
     max-width: 90%;        /* restrict width */
-    margin-left: 0;        /* no auto centering */
+    margin-left: 0;
+           
   }
 
   .xb-item--title {
@@ -18662,16 +18663,13 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-item--title {
     font-size: 28px;
     line-height: 36px;
-    
+   
   }
   .xb-item--content {
     font-size: 14px;
     line-height: 22px;
   }
-  .xb-btn .btn {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
+ 
 }
 
 
@@ -19063,6 +19061,15 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     
     font-size: 16px;
     padding: 0px;
+
+  }
+  
+}
+@media (max-width: 480px) {
+  .thm-btn--data.hero-btn {
+    
+    font-size: 16px;
+    padding: 10px 12px;
 
   }
   

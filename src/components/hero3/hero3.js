@@ -23,7 +23,7 @@ const Hero3 = (props) => {
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1500} delay={9}>
-                                    <div className="d-none d-md-block">
+                                    <div className="">
                                         <p className="xb-item--content wow fadeInUp" style={{color:"#000"}} data-wow-delay="150ms" data-wow-duration="600ms">We deliver efficient, safe, and sustainable MEP solutions covering HVAC, electrical, plumbing, and more to optimize building performance at every stage.</p>
                                     </div>
                                 </Fade>
