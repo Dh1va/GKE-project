@@ -28,9 +28,9 @@ const Hero3 = (props) => {
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
-                                    <div className="d-none d-md-block">
+                                    <div className="">
                                         <div className="xb-btn mt-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                                            <Link onClick={ClickHandler} to="/contact" className="hero-btn thm-btn thm-btn--fill_icon thm-btn--data">
+                                            <Link onClick={ClickHandler} to="/contact" className="hero-btn thm-btn thm-btn--fill_icon thm-btn--data d-none d-md-block">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Talk To Experts</span></div>
                                                 <div className="xb-item--holder">
                                                     <span className="xb-item--text xb-item--text1">Talk To Experts</span>
@@ -38,8 +38,20 @@ const Hero3 = (props) => {
                                                     <span className="xb-item--text xb-item--text2 ">Talk To Experts</span>
                                                 </div>
                                             </Link>
+                                            <Link
+                                            onClick={ClickHandler}
+                                            to="/contact"
+                                            className="static-btn"
+                                            >
+                                            <span>Talk To Experts</span>
+                                            <span className="icon-circle">
+                                                <i className="fal fa-plus"></i>
+                                            </span>
+                                            </Link>
+
                                         </div>
                                     </div>
+                                    
                                 </Fade>
                             </div>
                         </div>
