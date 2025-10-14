@@ -18668,7 +18668,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-item--content {
     font-size: 14px;
     line-height: 22px;
-    width:65%;
+    width:60%;
   }
  
 }
@@ -22114,31 +22114,42 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     width: 60%;
   }
 }
+/* Default: hide button on larger screens */
 .static-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background-color: #fff; /* main button color */
-  color: #3450A1;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 50px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  display: none;
 }
 
-.static-btn .icon-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #3450A1;
-  color: #fff;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  font-size: 14px;
-  transition: all 0.3s ease;
+/* Show only on screens below 767px */
+@media (max-width: 767px) {
+  .static-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    color: #3450A1;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .static-btn .icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3450A1;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+
+  
 }
+
 
 
