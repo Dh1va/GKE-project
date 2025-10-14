@@ -18654,10 +18654,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 480px) {
   .hero-style-six {
     height: 100vh;
-    padding-top: 115px; /* more spacing for fixed navbar */
+    padding-top: 115px; 
   }
   .xb-hero {
-    width: 90%;          /* restrict width for better visibility */
+    width: 90%;         
   }
   .xb-item--title {
     font-size: 28px;
