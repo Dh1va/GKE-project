@@ -18618,7 +18618,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 767px) {
   .hero-style-six {
     height: 100vh;
-    padding-top: 120px; /* more spacing for mobile */
+    padding-top: 60px; /* more spacing for mobile */
     padding-left: 15px; /* keep content from touching edges */
     padding-right: 15px
   }
@@ -18654,7 +18654,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 @media (max-width: 480px) {
   .hero-style-six {
-    height: 100vh;
+    height: 100%;
     padding-top: 115px; 
   }
   .xb-hero {
@@ -18668,6 +18668,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-item--content {
     font-size: 14px;
     line-height: 22px;
+    width:50%;
   }
  
 }
@@ -19068,8 +19069,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 @media (max-width: 480px) {
   .thm-btn--data.hero-btn {
     
-    font-size: 16px;
-    padding: 10px 12px;
+    font-size: 12px;
+    padding: 10px 10px;
 
   }
   
