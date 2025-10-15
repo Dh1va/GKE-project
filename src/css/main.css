@@ -18584,14 +18584,14 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   z-index: 1;
 }
 
-.xb-item--title {
+.hero-style-six .xb-item--title {
   font-size: 72px;
   line-height: 90px;
   color: #fff;
   margin-bottom: 20px;
 }
 
-.xb-item--content {
+.hero-style-six .xb-item--content {
   font-size: 24px;
   line-height: 36px;
   color: #fff;
@@ -18600,23 +18600,23 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 /* Responsive adjustments */
 @media (max-width: 1199px) {
-  .xb-item--title {
+  .hero-style-six .xb-item--title {
     font-size: 50px;
     line-height: 65px;
   }
-  .xb-item--content {
+  .hero-style-six .xb-item--content {
     font-size: 20px;
     line-height: 30px;
   }
 }
 @media (max-width: 991px) {
-  .hero-style-six {
+  .hero-style-six .hero-style-six {
     padding-top: 100px; /* increase space below navbar */
   }
 }
 
 @media (max-width: 767px) {
-  .hero-style-six {
+  .hero-style-six .hero-style-six {
     height: 100vh;
     padding-top: 60px; /* more spacing for mobile */
     padding-left: 15px; /* keep content from touching edges */
@@ -18629,19 +18629,19 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     width: 80%;
   }
 
-  .xb-item--title,
-  .xb-item--content {
+  .hero-style-six .xb-item--title,
+  .hero-style-six .xb-item--content {
     max-width: 90%;        /* restrict width */
     margin-left: 0;
            
   }
 
-  .xb-item--title {
+  .hero-style-six .xb-item--title {
     font-size: 36px;
     line-height: 46px;
   }
 
-  .xb-item--content {
+  .hero-style-six .xb-item--content {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px;
@@ -18660,12 +18660,12 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   .xb-hero {
     width: 90%;         
   }
-  .xb-item--title {
+  .hero-style-six .xb-item--title {
     font-size: 28px;
     line-height: 36px;
    
   }
-  .xb-item--content {
+  .hero-style-six .xb-item--content {
     font-size: 14px;
     line-height: 22px;
     width:60%;
