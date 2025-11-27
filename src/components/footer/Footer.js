@@ -124,7 +124,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Marquee from "react-fast-marquee";
 import Bg from '../../images/bg/da-footer.jpg'
-import logo from '../../images/logo/GKE logo v5.png'
+import logo from '../../images/logo/GKE logo 2.png'
 
 const ClickHandler = () => {
   window.scrollTo(10, 0);
